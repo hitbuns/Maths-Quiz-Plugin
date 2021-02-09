@@ -1,0 +1,13 @@
+messages:
+  prefix: "&8[&6Math&8]&e"
+  noonegotitintime: "%prefix% &cNoone answered the question in time! The answer was %value%"
+  answered: "%prefix% &2%player% &ahas answered the question correctly with the answer &e%value%"
+  question: "%prefix% &eWhat is %problem%? &8(If there is a decimal answer round to the nearest integer)"
+  moneyadd: "&6+$%money%"
+
+options:
+  players_online_required: 1
+  operator_max: 5
+  number_max: 5000
+  number_min: 1
+  rewards_formula: "50000*%operator_amount%"
